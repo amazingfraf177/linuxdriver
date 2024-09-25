@@ -1,0 +1,11 @@
+KERNELDIR := /home/alientek/linux/linux
+# /home/alientek/linux/linuxkernel
+CURRENT_PATH := $(shell pwd) 
+obj-m := devbase.o 
+
+build: kernel_modules 
+
+kernel_modules: 
+	$(MAKE) -C $(KERNELDIR) M=$(CURRENT_PATH) modules 
+clean: 
+	$(MAKE) -C $(KERNELDIR) M=$(CURRENT_PATH) clean

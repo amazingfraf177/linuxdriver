@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/12.platformdriver/driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/12.platformdriver/driver.ko /home/alientek/linuxdriver/12.platformdriver/driver.o /home/alientek/linuxdriver/12.platformdriver/driver.mod.o

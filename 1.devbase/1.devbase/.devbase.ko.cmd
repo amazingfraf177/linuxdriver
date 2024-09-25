@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/1.devbase/devbase.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/1.devbase/devbase.ko /home/alientek/linuxdriver/1.devbase/devbase.o /home/alientek/linuxdriver/1.devbase/devbase.mod.o

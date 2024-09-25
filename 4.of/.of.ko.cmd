@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/4.of/of.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/4.of/of.ko /home/alientek/linuxdriver/4.of/of.o /home/alientek/linuxdriver/4.of/of.mod.o

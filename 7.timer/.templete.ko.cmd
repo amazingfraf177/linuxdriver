@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/7.timer/templete.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/7.timer/templete.ko /home/alientek/linuxdriver/7.timer/templete.o /home/alientek/linuxdriver/7.timer/templete.mod.o

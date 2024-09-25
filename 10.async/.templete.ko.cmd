@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/10.async/templete.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/10.async/templete.ko /home/alientek/linuxdriver/10.async/templete.o /home/alientek/linuxdriver/10.async/templete.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/2.led/led.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/2.led/led.ko /home/alientek/linuxdriver/2.led/led.o /home/alientek/linuxdriver/2.led/led.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/alientek/linuxdriver/3.newchrdev/newled.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/linuxdriver/3.newchrdev/newled.ko /home/alientek/linuxdriver/3.newchrdev/newled.o /home/alientek/linuxdriver/3.newchrdev/newled.mod.o
